@@ -15,7 +15,7 @@ app.post('/chat', async (req, res) => {
             messages: [{ role: "user", content: userMessage }]
         }, {
             headers: {
-                'Authorization': `Bearer sk-3rmLMsRK-E2W5g_DQpJ9ccuVJdeHsAy97lIRzjGwKST3BlbkFJSALZ1dOU6DyWAPS2c7oJnsc-XL6TLK3smTvS7MuDwA`, 
+                'Authorization': `Bearer //add your own API key here`, 
             }
         });
 
